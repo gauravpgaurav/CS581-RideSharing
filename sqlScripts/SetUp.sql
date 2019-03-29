@@ -12,6 +12,7 @@ PRIMARY KEY(destID)
 
 CREATE TABLE POOLING_WINDOW(
 poolingWindowID varchar(10),
+poolingStartTime DATETIME,
 poolingDuration tinyint,
 PRIMARY KEY(poolingWindowID)
 );
@@ -23,7 +24,7 @@ isWillingToWalk tinyint,
 destID varchar(10), 
 maxDelay int, 
 maxWalkTime int,
-requestTime TIMESTAMP, 
+requestTime DATETIME, 
 indvRideTime long, 
 indvRideDist double,
 indvRideCost DECIMAL(13,4),

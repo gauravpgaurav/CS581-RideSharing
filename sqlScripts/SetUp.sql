@@ -42,6 +42,8 @@ isSharing tinyint,
 sharedRideTime long, 
 sharedRideDist double,
 sharedRideCost DECIMAL(13,4),
+poolingWindowID varchar(10),
 PRIMARY KEY(reqID, rideID),
-FOREIGN KEY (reqID) REFERENCES REQUESTS(reqID)
+FOREIGN KEY (reqID) REFERENCES REQUESTS(reqID),
+FOREIGN KEY (poolingWindowID) REFERENCES POOLING_WINDOW(poolingWindowID)
 );

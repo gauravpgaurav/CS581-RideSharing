@@ -5,7 +5,7 @@ CREATE TABLE DESTINATION(
 destID varchar(10), 
 destLat DECIMAL(23,20), 
 destLong DECIMAL(23,20), 
-timeFromSrc long, 
+timeFromSrc double, 
 distFromSrc double, 
 PRIMARY KEY(destID)
 );
@@ -14,6 +14,7 @@ CREATE TABLE POOLING_WINDOW(
 poolingWindowID varchar(10),
 poolingStartTime DATETIME,
 poolingDuration tinyint,
+poolingWindowComputeTime double,
 PRIMARY KEY(poolingWindowID)
 );
 

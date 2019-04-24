@@ -61,6 +61,7 @@
 - Use Table Data Import Wizard in MySQL Workbench to populate tables: `DESTINATION` and `DESTINATION_CACHE` using 
     - [PrecomputedData/DESTINATION.csv](https://github.com/guptaaditya18/CS581-RideSharing/blob/master/PrecomputedData/DESTINATION.csv)
     - [PrecomputedData/DESTINATION_CACHE.csv](https://github.com/guptaaditya18/CS581-RideSharing/blob/master/PrecomputedData/DESTINATION_CACHE.csv)
+    - [Help - Table Data Import Wizard](https://dev.mysql.com/doc/workbench/en/wb-admin-export-import-table.html)
                 
 ## 3. Data Preprocessing Stage
 - Execute `RideSharing - Processing.ipynb` after providing the desired `startDate` and `endDate` and path to the correct month csv

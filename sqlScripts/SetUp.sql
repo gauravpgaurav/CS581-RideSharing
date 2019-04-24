@@ -14,6 +14,7 @@ CREATE TABLE POOLING_WINDOW(
 poolingWindowID varchar(10),
 poolingStartTime DATETIME,
 poolingDuration tinyint,
+poolingWindowSize int,
 poolingWindowComputeTime double,
 PRIMARY KEY(poolingWindowID)
 );

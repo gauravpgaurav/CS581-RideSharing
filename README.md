@@ -24,7 +24,10 @@
 3. [Jupyter Notebook](https://jupyter.org/install)
 4. [Clone CS581-RideSharing](https://github.com/guptaaditya18/CS581-RideSharing)
     5. [Cloning a Repository](https://help.github.com/en/articles/cloning-a-repository)
-                
+
+##### Python libraries to be installed-
+1. NetworkX
+
 ## 2. Database Setup
 - Use `sqlScripts/SetUp.sql` to create the `CS581GROUP6` database and the following tables-
 

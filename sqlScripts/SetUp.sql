@@ -40,12 +40,14 @@ CREATE TABLE RIDES(
 reqID varchar(10), 
 rideID varchar(10), 
 isSharing tinyint, 
+actualDestID varchar(10), 
 sharedRideTime long, 
 sharedRideDist double,
 sharedRideCost DECIMAL(13,4),
 poolingWindowID varchar(10),
 PRIMARY KEY(reqID, rideID),
 FOREIGN KEY (reqID) REFERENCES REQUESTS(reqID),
+FOREIGN KEY (actualDestID) REFERENCES DESTINATION(destID),
 FOREIGN KEY (poolingWindowID) REFERENCES POOLING_WINDOW(poolingWindowID)
 );
 

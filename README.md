@@ -22,11 +22,16 @@
 1. [MySQL/MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
 2. [Python](https://www.python.org/downloads/)
 3. [Jupyter Notebook](https://jupyter.org/install)
-4. [Clone CS581-RideSharing](https://github.com/guptaaditya18/CS581-RideSharing)
-    5. [Cloning a Repository](https://help.github.com/en/articles/cloning-a-repository)
+4. [Clone CS581-RideSharing Repository](https://help.github.com/en/articles/cloning-a-repository)
 
-##### Python libraries to be installed-
-1. NetworkX
+##### Python Libraries to be installed-
+- [Numpy](https://scipy.org/install.html)
+- [Pandas](https://pandas.pydata.org/pandas-docs/stable/install.html)
+- [Geopy](https://geopy.readthedocs.io/en/stable/#installation)
+- [NetworkX](https://networkx.github.io/documentation/networkx-2.3/install.html#)
+- [Gmaps](https://jupyter-gmaps.readthedocs.io/en/latest/install.html)
+- [MySQLdb](https://dev.mysql.com/doc/connector-python/en/connector-python-installation-binary.html)
+- [SQLalchemy](https://docs.sqlalchemy.org/en/13/intro.html#installation-guide)
 
 ## 2. Database Setup
 - Use `sqlScripts/SetUp.sql` to create the `CS581GROUP6` database and the following tables-
